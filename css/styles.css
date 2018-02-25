@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+body {
+  font-family: "Helvetica", "Helvetica Neue Cyr", "Pragmatica", "Arial", sans-serif;
+  background-color: #2E112D;
+  color: #fff;
+  }
+
+.v-h-100{
+  display: block;
+  border: 10px solid #000;
+  height: 100vh;
+  width: 100%;
+  padding: 10%;
+}
+
+.center-frame {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  padding: 10px 20px;
+  background-color: #540032;
+  box-shadow: 0 3px 5px 3px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+h1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 200;
+}
+h2{
+  font-size: 26px;
+  font-weight: normal;
+  /*display: inline-block;*/
+  vertical-align: middle;
+
+}
+
+
+.cities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  padding: 3px;
+  /*background: #FFF;*/
+}
+/*.cities-list:hover > li {
+  opacity: .6;
+}*/
+.cities-list li {
+  background: #0000aa;
+  border: 0 solid #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 26px;
+  /*width: auto;*/
+}
+
+.cities-list li:hover {
+  opacity: 1;
+}
+/*.cities-list li:active {
+  background: #ffffff;
+}*/
+/*.cities-list li:first-child {
+  width: 50%;
+}
+.cities-list li:last-child {
+  width: 100%;
+}*/
+.cities-list li .city-item {
+  font-weight: normal;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.city-item{
+  margin: 1%;
+  width: 23%;
+  overflow: hidden;
+  vertical-align: top;
+  height: 6em;
+}
+.temp:after {
+  content: "°C";
+}
+.temp,
+.cities-list li .wi {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 0.7);
+}
+.cities-list li .wi {
+  font-size: 1.5em;
+}
+/*.cities-list li:nth-child(1) {
+  background: #3399CC;
+}
+.cities-list li:nth-child(2) {
+  background: #33CCCC;
+}
+.cities-list li:nth-child(3) {
+  background: #996699;
+}
+.cities-list li:nth-child(4) {
+  background: #C24747;
+}
+.cities-list li:nth-child(5) {
+  background: #e2674a;
+}
+.cities-list li:nth-child(6) {
+  background: #FFCC66;
+}
+.cities-list li:nth-child(7) {
+  background: #99CC99;
+}
+.cities-list li:nth-child(8) {
+  background: #669999;
+}*/
